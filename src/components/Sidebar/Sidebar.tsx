@@ -22,13 +22,10 @@ const Drawer = styled(({ open, ...rest }: Props) => <Box {...rest} />)(
 )
 
 const Sidebar = () => {
-  const theme = useTheme()
-  const open = useMediaQuery(theme.breakpoints.up('lg'))
+  const open = false
 
   return (
     <Drawer open={open}>
-      <Advertisement />
-
       <Toolbar direction={open ? 'row' : 'column'} />
 
       <Screens view={open ? 'list' : 'popover'} />

@@ -56,35 +56,6 @@ const AppBar = () => {
         <Tools />
 
         <Stack spacing={1} direction="row">
-          <Button
-            color="primary"
-            href="https://ko-fi.com/skmail"
-            target="_blank"
-          >
-            Buy me a coffee
-          </Button>
-
-          <IconButton
-            href="https://twitter.com/SolaimanKmail"
-            target="_blank"
-            edge="end"
-            aria-label="Follow me on twitter"
-            aria-haspopup="true"
-            color="inherit"
-          >
-            <TwitterIcon />
-          </IconButton>
-          <IconButton
-            href="https://github.com/skmail/responsive-viewer"
-            target="_blank"
-            edge="end"
-            aria-label="Star on github"
-            aria-haspopup="true"
-            color="inherit"
-          >
-            <GitHubIcon />
-          </IconButton>
-
           <IconButton
             onClick={() => dispatch(toggleHelpDialog())}
             edge="end"
