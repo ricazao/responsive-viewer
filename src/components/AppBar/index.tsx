@@ -49,7 +49,6 @@ const AppBar = () => {
         }}
       >
         <Stack spacing={2} direction="row">
-          <Logo />
           <AddressBar />
         </Stack>
 

@@ -55,8 +55,6 @@ function App() {
       <Box display="flex" overflow="hidden" flex={1}>
         <Sidebar />
         <Box flex={1} display="flex" flexDirection={'column'}>
-          <Tabs />
-
           <Screens />
         </Box>
       </Box>

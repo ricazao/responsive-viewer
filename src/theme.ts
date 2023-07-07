@@ -10,7 +10,8 @@ const theme = createTheme({
     //   paper: '#303030',
     // },
     primary: {
-      main: '#FFC400',
+      // main: '#FFC400',
+      main: '#858585',
     },
   },
   components: {
